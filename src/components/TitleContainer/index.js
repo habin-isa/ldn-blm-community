@@ -2,8 +2,6 @@ import React from 'react';
 import * as S from './styles';
 import Button from '../Button';
 
-// import { string, func } from 'prop-types';
-
 const TitleContainer = () => {
   const openWindow = () => {
     window.open(
@@ -21,13 +19,3 @@ const TitleContainer = () => {
 };
 
 export default TitleContainer;
-
-// TitleContainer.propTypes = {
-//   text: string,
-//   handleClick: func
-// };
-
-// TitleContainer.defaultProps = {
-//   text: 'Donate',
-//   handleClick: () => {}
-// };
