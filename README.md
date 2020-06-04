@@ -1,20 +1,15 @@
-# React haboilerplate
+# London Black Lives Matter Community
 
-### Base for future React project with simple dependencies
+### Central community base for news and updates
 
 ### To run the project
 
-- \$ git clone https://github.com/habin-isa/react-haboilerplate.git
-- \$ cd react-haboilerplate
+- \$ git clone https://github.com/habin-isa/ldn-blm-community.git
+- \$ cd ldn-blm-community
 - \$ yarn
 - \$ yarn start
-- Change name of remote and git remote to use as boilerplate for another project
 
-### Examples contained
-
-- Styled components
-- Jest testing
-- Proptypes
+- \$ yarn test
 
 ### Tech
 
