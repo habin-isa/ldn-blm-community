@@ -31,4 +31,8 @@ export const RightCol = styled.div`
 
 export const Icon = styled.img`
   width: 35px;
+  &:hover {
+    cursor: pointer;
+    opacity: 0.5;
+  }
 `;

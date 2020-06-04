@@ -5,12 +5,17 @@ import Button from '../Button';
 // import { string, func } from 'prop-types';
 
 const TitleContainer = () => {
+  const openWindow = () => {
+    window.open(
+      'https://www.gofundme.com/f/ukblm-fund?utm_medium=referral&utm_source=unknown&utm_campaign=comms_h4hk+ukblm-fund'
+    );
+  };
   return (
     <S.Wrapper>
-      <S.Title>
+      <h1>
         London Black Lives Matter. <br /> Welcome to the community looking to educate, share and deliver change.
-      </S.Title>
-      <Button text="Donate now" />
+      </h1>
+      <Button text="Donate now" handleClick={openWindow} />
     </S.Wrapper>
   );
 };

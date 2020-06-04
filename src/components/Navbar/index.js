@@ -4,28 +4,21 @@ import HandIcon from '../../assets/hand.png';
 // import { string, func } from 'prop-types';
 
 const Navbar = () => {
+  const handleClick = (url) => {
+    window.open(url);
+  };
   return (
     <S.Wrapper>
       <S.LeftCol>
         <S.Icon src={HandIcon} alt="hand-icon" />
       </S.LeftCol>
       <S.RightCol>
-        <S.NavOption>About</S.NavOption>
-        <S.NavOption>Contacts</S.NavOption>
-        <S.NavOption>c0de</S.NavOption>
+        <S.NavOption onClick={handleClick('https://blacklivesmatter.com/about/')}>About</S.NavOption>
+        <S.NavOption onClick={handleClick('http://blacklivesmatteruk.com/contact/')}>Contacts</S.NavOption>
+        <S.NavOption onClick={handleClick('https://github.com/habin-isa/ldn-blm-community')}>c0de</S.NavOption>
       </S.RightCol>
     </S.Wrapper>
   );
 };
 
 export default Navbar;
-
-// Navbar.propTypes = {
-//   text: string,
-//   handleClick: func
-// };
-
-// Navbar.defaultProps = {
-//   text: 'Donate',
-//   handleClick: () => {}
-// };

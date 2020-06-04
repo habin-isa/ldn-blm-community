@@ -9,3 +9,8 @@ export const Content = styled.div`
   flex-direction: column;
   padding: 0 3%;
 `;
+
+export const TopBar = styled.div`
+  display: flex;
+  margin-bottom: 30px;
+`;

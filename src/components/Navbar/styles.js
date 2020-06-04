@@ -23,7 +23,7 @@ export const RightCol = styled.div`
   display: flex;
 `;
 
-export const NavOption = styled.a`
+export const NavOption = styled.span`
   color: #333333;
   font-size: 15px;
   margin-left: 40px;

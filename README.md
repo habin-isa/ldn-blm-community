@@ -19,3 +19,4 @@
 - Jest
 - Axios
 - Babel/EsLint
+- react-player

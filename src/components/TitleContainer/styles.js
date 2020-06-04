@@ -8,7 +8,3 @@ export const Wrapper = styled.div`
   justify-content: center;
   color: #333333;
 `;
-
-export const Title = styled.h1`
-  width: 40%;
-`;
