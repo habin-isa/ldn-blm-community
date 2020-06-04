@@ -1,21 +1,19 @@
 import React from 'react';
 import * as S from './styles';
-// import { string } from 'prop-types';
+import Navbar from '../Navbar';
+import Footer from '../Footer';
+import TitleContainer from '../TitleContainer';
 
 const App = () => {
-  return <S.Wrapper>ldn-blm-community</S.Wrapper>;
+  return (
+    <S.Wrapper>
+      <S.Content>
+        <Navbar />
+        <TitleContainer />
+      </S.Content>
+      <Footer />
+    </S.Wrapper>
+  );
 };
 
 export default App;
-
-// If props were drilled into App component
-// E.g. const App = ({ propName, propTwo })
-
-// App.propTypes = {
-//   propName: string,
-//   propTwo: string.isRequired
-// };
-
-// App.defaultProps = {
-//   propName: 'Kimmy'
-// };
