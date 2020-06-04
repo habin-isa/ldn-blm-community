@@ -4,6 +4,9 @@ import Navbar from '../Navbar';
 import Footer from '../Footer';
 import TitleContainer from '../TitleContainer';
 import VideoContainer from '../VideoContainer';
+import YoutubeContainer from '../YoutubeContainer';
+
+import PosterImg from '../../assets/posters.png';
 
 const App = () => {
   return (
@@ -14,7 +17,9 @@ const App = () => {
           <TitleContainer />
           <VideoContainer />
         </S.TopBar>
+        <YoutubeContainer />
       </S.Content>
+      <S.Poster src={PosterImg} alt="poster-img" />
       <Footer />
     </S.Wrapper>
   );

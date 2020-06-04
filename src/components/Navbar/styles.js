@@ -23,10 +23,11 @@ export const RightCol = styled.div`
   display: flex;
 `;
 
-export const NavOption = styled.span`
+export const NavOption = styled.a`
   color: #333333;
   font-size: 15px;
   margin-left: 40px;
+  text-decoration: none;
   &:hover {
     cursor: pointer;
     color: orange;

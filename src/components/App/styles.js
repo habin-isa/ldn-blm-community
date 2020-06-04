@@ -14,3 +14,7 @@ export const TopBar = styled.div`
   display: flex;
   margin-bottom: 30px;
 `;
+
+export const Poster = styled.img`
+  width: 100%;
+`;

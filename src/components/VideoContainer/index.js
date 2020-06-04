@@ -6,7 +6,7 @@ const VideoContainer = () => {
   const url = 'https://vimeo.com/174602253';
   return (
     <S.Wrapper>
-      <ReactPlayer url={url} volume={0} width="100%" playing />
+      <ReactPlayer url={url} volume={0} width="100%" loop={true} playing />
     </S.Wrapper>
   );
 };
