@@ -5,6 +5,7 @@ import Footer from '../Footer';
 import TitleContainer from '../TitleContainer';
 import VideoContainer from '../VideoContainer';
 import YoutubeContainer from '../YoutubeContainer';
+import DonationContainer from '../DonationContainer';
 
 import PosterImg from '../../assets/posters.png';
 
@@ -18,6 +19,7 @@ const App = () => {
           <VideoContainer />
         </S.TopBar>
         <YoutubeContainer />
+        <DonationContainer />
       </S.Content>
       <S.Poster src={PosterImg} alt="poster-img" />
       <Footer />
