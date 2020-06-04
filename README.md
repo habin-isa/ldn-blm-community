@@ -11,6 +11,7 @@
 - Links for socials
 - BE with Express
 - Deployed on Heroku
+- Scores 100 on SEO Lighthouse check
 
 - Please note if Youtube API credentials exceeds limit -> Please go to Google Developer Console and create a new API_KEY -> Replace in config.json
 
