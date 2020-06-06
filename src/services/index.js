@@ -16,6 +16,7 @@ export const getChannelData = async ({ params }) => {
       params
     }
   );
+  console.log(response);
   return response;
 };
 

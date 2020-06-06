@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import React from 'react';
 
 import './styles.css';
 import * as S from './styles';
@@ -14,7 +14,7 @@ const VideoItem = ({ video }) => {
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
             title="video"
-          ></iframe>
+          />
         </div>
         <S.VideoDetails>
           <S.VideoTitle>{video.snippet.title}</S.VideoTitle>

@@ -25,7 +25,7 @@ const YoutubeContainer = () => {
     } finally {
       console.log('loadVideos has ran');
     }
-  });
+  }, []);
 
   const loadChannelData = useCallback(async () => {
     try {
@@ -43,7 +43,7 @@ const YoutubeContainer = () => {
 
   useEffect(() => {
     loadChannelData();
-  }, []);
+  }, [loadChannelData]);
 
   useEffect(() => {
     if (videoData.length === 0) {
