@@ -13,7 +13,7 @@
 - Deployed on Heroku
 - Scores 100 on SEO Lighthouse check
 
-- Please note if Youtube API credentials exceeds limit -> Please go to Google Developer Console and create a new API_KEY -> Replace in config.json
+- Please note if Youtube API credentials exceeds limit -> Go to Google Developer Console and create a new API_KEY -> Replace in config.json
 
 ### Use the app
 
@@ -41,3 +41,4 @@ https://talk-is-cheap.herokuapp.com/
 - React-player
 - Express
 - Youtube Data API
+- Heroku CLI
